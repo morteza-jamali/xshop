@@ -1,0 +1,10 @@
+{
+  "files.autoSave": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less"
+  ]
+}

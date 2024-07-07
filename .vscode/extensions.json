@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "onecentlin.laravel-blade",
+    "editorconfig.editorconfig",
+    "shufo.vscode-blade-formatter",
+    "vunguyentuan.vscode-postcss",
+    "vunguyentuan.vscode-css-variables",
+    "bmewburn.vscode-intelephense-client"
+  ]
+}
