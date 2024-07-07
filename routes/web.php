@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
+// Website Controllers
+use App\Http\Controllers\Website;
+
+Route::middleware(['underc'])->group(function () {
+  Route::get('/', [Website\HomeController::class, 'get'])->name(
+    'website.home.get',
+  );
 });
